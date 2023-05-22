@@ -1,5 +1,5 @@
 function textTyping(){
-    console.log("타이핑효과 잘되네");
+    console.log("다른컴퓨터에서 수정했어");
     console.log("타이핑효과 잘되네");
     console.log("타이핑효과 잘되네");
     console.log("타이핑효과 너무너무 잘되네");
