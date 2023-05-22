@@ -1,5 +1,8 @@
 function textTyping(){
     console.log("타이핑효과 잘되네");
+    console.log("타이핑효과 잘되네");
+    console.log("타이핑효과 잘되네");
+    console.log("타이핑효과 잘되네");
     let a = "변경된 사항1";
     // I'm a  < 한번만 타이핑 찍어줄 텍스트 효과
     const text = document.querySelector(".text");
