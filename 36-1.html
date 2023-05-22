@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이핑 효과 응용</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        ul, li, ol { list-style: none;}
+        .text { color: palevioletred; font-size: 70px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+        .text::after {content: "|"; color: slateblue; animation: cursor 0.4s linear infinite;}
+        @keyframes cursor {
+            0% { opacity: 1;}
+            100% { opacity: 0;}
+        }
+
+        .text .child { color: cornflowerblue;}
+    </style>
+</head>
+<body>
+    <div class="text"></div>
+    <div>test1</div>
+    <div>test2</div>
+    <div>test3</div>
+
+    <script src="textTyping.js"></script>
+    <script>
+        textTyping();
+    </script>
+</body>
+</html>
